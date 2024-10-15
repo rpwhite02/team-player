@@ -277,7 +277,7 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2024",
-    "endYear": "2024"
+    "endYear": "Present"
   },
   {
     "playerID": "16",
@@ -509,7 +509,7 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2011",
-    "endYear": "2024"
+    "endYear": "Present"
   },
   {
     "playerID": "27",
@@ -613,7 +613,7 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2024",
-    "endYear": "2024"
+    "endYear": "Present"
   },
   {
     "playerID": "33",
@@ -645,6 +645,566 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2020",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "35",
+    "playerName": "Tyler Glasnow",
+    "teamID": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "startYear": "2016",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "35",
+    "playerName": "Tyler Glasnow",
+    "teamID": "TBR",
+    "teamName": "Tampa Bay Rays",
+    "startYear": "2018",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "35",
+    "playerName": "Tyler Glasnow",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "36",
+    "playerName": "Teoscar Hernandez",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2016",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "36",
+    "playerName": "Teoscar Hernandez",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2017",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "36",
+    "playerName": "Teoscar Hernandez",
+    "teamID": "SEA",
+    "teamName": "Seattle Mariners",
+    "startYear": "2023",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "37",
+    "playerName": "Teoscar Hernandez",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "38",
+    "playerName": "Bobby Witt Jr.",
+    "teamID": "KCR",
+    "teamName": "Kansas City Royals",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "39",
+    "playerName": "Giancarlo Stanton",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2010",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "39",
+    "playerName": "Giancarlo Stanton",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2018",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "40",
+    "playerName": "Christian Yelich",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2013",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "40",
+    "playerName": "Christian Yelich",
+    "teamID": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "startYear": "2018",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Anthony Rizzo",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2011",
+    "endYear": "2011"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Anthony Rizzo",
+    "teamID": "CHC",
+    "teamName": "Chicago Cubs",
+    "startYear": "2012",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Anthony Rizzo",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2021",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Chris Sale",
+    "teamID": "CHW",
+    "teamName": "Chicago White Sox",
+    "startYear": "2010",
+    "endYear": "2016"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Chris Sale",
+    "teamID": "BOS",
+    "teamName": "Boston Red Sox",
+    "startYear": "2017",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "41",
+    "playerName": "Chris Sale",
+    "teamID": "ATL",
+    "teamName": "Atlanta Braves",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "42",
+    "playerName": "Aaron Nola",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2015",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "43",
+    "playerName": "Matt Chapman",
+    "teamID": "OAK",
+    "teamName": "Oakland Athletics",
+    "startYear": "2017",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "44",
+    "playerName": "Matt Chapman",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "44",
+    "playerName": "Matt Chapman",
+    "teamID": "SFG",
+    "teamName": "San Francisco Giants",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "45",
+    "playerName": "Dylan Cease",
+    "teamID": "CHW",
+    "teamName": "Chicao White Sox",
+    "startYear": "2019",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "45",
+    "playerName": "Dylan Cease",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "46",
+    "playerName": "Jack Flaherty",
+    "teamID": "STL",
+    "teamName": "St Louis Cardinals",
+    "startYear": "2017",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "46",
+    "playerName": "Jack Flaherty",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2023",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "46",
+    "playerName": "Jack Flaherty",
+    "teamID": "DET",
+    "teamName": "Detroit Tigers",
+    "startYear": "2024",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "46",
+    "playerName": "Jack Flaherty",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "47",
+    "playerName": "Seth Lugo",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2016",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "47",
+    "playerName": "Seth Lugo",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2023",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "47",
+    "playerName": "Seth Lugo",
+    "teamID": "KCR",
+    "teamName": "Kansas City Royals",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "48",
+    "playerName": "Marcell Ozuna",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2013",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "48",
+    "playerName": "Marcell Ozuna",
+    "teamID": "STL",
+    "teamName": "St Louis Cardinals",
+    "startYear": "2018",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "48",
+    "playerName": "Marcell Ozuna",
+    "teamID": "ATL",
+    "teamName": "Atlanta Braves",
+    "startYear": "2020",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "49",
+    "playerName": "Luis Arraez",
+    "teamID": "MIN",
+    "teamName": "Minnesota Twins",
+    "startYear": "2019",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "49",
+    "playerName": "Luis Arraez",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2023",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "49",
+    "playerName": "Luis Arraez",
+    "teamID": "SDP",
+    "teamName": "San Diego Padreas",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "50",
+    "playerName": "Josh Hader",
+    "teamID": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "startYear": "2017",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "50",
+    "playerName": "Josh Hader",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2023",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "50",
+    "playerName": "Josh Hader",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "51",
+    "playerName": "Jose Abreu",
+    "teamID": "CHW",
+    "teamName": "Chicago White Sox",
+    "startYear": "2014",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "51",
+    "playerName": "Jose Abreu",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2023",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "52",
+    "playerName": "Kevin Gausman",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2013",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "52",
+    "playerName": "Kevin Gausman",
+    "teamID": "ATL",
+    "teamName": "Atlanta Braves",
+    "startYear": "2018",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "52",
+    "playerName": "Kevin Gausman",
+    "teamID": "CIN",
+    "teamName": "Cincinatti Reds",
+    "startYear": "2019",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "52",
+    "playerName": "Kevin Gausman",
+    "teamID": "SFG",
+    "teamName": "San Francisco Giants",
+    "startYear": "2020",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "52",
+    "playerName": "Kevin Gausman",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "53",
+    "playerName": "Chris Bassitt",
+    "teamID": "CHW",
+    "teamName": "Chicago White Sox",
+    "startYear": "2014",
+    "endYear": "2014"
+  },
+  {
+    "playerID": "54",
+    "playerName": "Chris Bassitt",
+    "teamID": "OAK",
+    "teamName": "Oakland Athletics",
+    "startYear": "2015",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "54",
+    "playerName": "Chris Bassitt",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2022",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "54",
+    "playerName": "Chris Bassitt",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "55",
+    "playerName": "Pablo Lopez",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2018",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "55",
+    "playerName": "Pablo Lopez",
+    "teamID": "MIN",
+    "teamName": "Minnesota Twins",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "56",
+    "playerName": "Sonny Gray",
+    "teamID": "OAK",
+    "teamName": "Oakland Athletics",
+    "startYear": "2013",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "56",
+    "playerName": "Sonny Gray",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2017",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "56",
+    "playerName": "Sonny Gray",
+    "teamID": "CIN",
+    "teamName": "Cincinatti Reds",
+    "startYear": "2019",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "56",
+    "playerName": "Sonny Gray",
+    "teamID": "MIN",
+    "teamName": "Minnesota Twins",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "56",
+    "playerName": "Sonny Gray",
+    "teamID": "STL",
+    "teamName": "St Louis Cardinals",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "57",
+    "playerName": "Kyle Schwarber",
+    "teamID": "CHC",
+    "teamName": "Chicago Cubs",
+    "startYear": "2015",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "57",
+    "playerName": "Kyle Schwarber",
+    "teamID": "BOS",
+    "teamName": "Boston Red Sox",
+    "startYear": "2021",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "57",
+    "playerName": "Kyle Schwarber",
+    "teamID": "WSN",
+    "teamName": "Washington Nationals",
+    "startYear": "2021",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "57",
+    "playerName": "Kyle Schwarber",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "58",
+    "playerName": "Nick Castellanos",
+    "teamID": "DET",
+    "teamName": "Detroit Tigers",
+    "startYear": "2013",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "58",
+    "playerName": "Nick Castellanos",
+    "teamID": "CHC",
+    "teamName": "Chicago Cubs",
+    "startYear": "2019",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "58",
+    "playerName": "Nick Castellanos",
+    "teamID": "CIN",
+    "teamName": "Cincinatti Reds",
+    "startYear": "2020",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "58",
+    "playerName": "Nick Castellanos",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "59",
+    "playerName": "Carlos Correa",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2015",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "59",
+    "playerName": "Carlos Correa",
+    "teamID": "MIN",
+    "teamName": "Minnesota Twins",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "60",
+    "playerName": "George Springer",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2014",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "60",
+    "playerName": "George Springer",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2021",
     "endYear": "Present"
   }
 ]
