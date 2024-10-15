@@ -1,0 +1,152 @@
+playerID,playerName,teamID,teamName,startYear,endYear
+1,Mike Trout,LAA,Los Angeles Angels,2011,Present
+2,Bryce Harper,WAS,Washington Nationals,2012,2018
+2,Bryce Harper,PHI,Philadelphia Phillies,2019,Present
+3,Mookie Betts,BOS,Boston Red Sox,2014,2019
+3,Mookie Betts,LAD,Los Angeles Dodgers,2020,Present
+4,Aaron judge,NYY,New York Yankees,2016,Present
+5,Jacob deGrom,NYM,New York Mets,2014,2022
+5,Jacob deGrom,TEX,Texas Rangers,2023,Present
+6,Fernando Tatis Jr.,SDP,San Diego Padres,2019,Present
+7,Juan Soto,WAS,Washington Nationals,2018,2022
+7,Juan Soto,SDP,San Diego Padres,2022,2023
+7,Juan Soto,NYY,New York Yankees,2024,Present
+8,Max Scherzer,WAS,Washington Nationals,2015,2021
+8,Max Scherzer,LAD,Los Angeles Dodgers,2021,2021
+8,Max Scherzer,NYM,New York Mets,2022,2023
+8,Max Scherzer,TEX,Texas Rangers,2023,Present
+9,Nolan Arenado,COL,Colorado Rockies,2013,2020
+9,Nolan Arenado,STL,St. Louis Cardinals,2021,Present
+10,Freddie Freeman,ATL,Atlanta Braves,2010,2021
+10,Freddie Freeman,LAD,Los Angeles Dodgers,2022,Present
+11,Justin Verlander,DET,Detroit Tigers,2005,2017
+11,Justin Verlander,HOU,Houston Astros,2018,2022
+11,Justin Verlander,NYM,New York Mets,2023,2023
+11,Justin Verlander,HOU,Houston Astros,2023,Present
+12,Julio Rodriguez,SEA,Seattle Mariners,2022,Present
+13,Corey Seager,LAD,Los Angeles Dodgers,2015,2021
+13,Corey Seager,TEX,Texas Rangers,2022,Present
+14,Justin Turner,BAL,Baltimore Orioles,2009,2010
+14,Justin Turner,NYM,New York Mets,2010,2010
+14,Justin Turner,BAL,Baltimore Orioles,2010,2010
+15,Justin Turner,NYM,New York Mets,2011,2013
+15,Justin Turner,LAD,Los Angeles Dodgers,2014,2022
+15,Justin Turner,BOS,Boston Red Sox,2023,2023
+15,Justin Turner,TOR,Toronto Blue Jays,2024,2024
+15,Justin Turner,SEA,Seattle Mariners,2024,Present
+16,Randy Arozarena,STL,St Louis Cardinals,2019,2019
+16,Randy Arozarena,TBR,Tampa Bay Rays,2020,2024
+16,Randy Arozarena,SEA,Seattle Mariners,2024,Present
+17,Zack Greinke,KCR,Kansas City Royals,2004,2010
+17,Zack Greinke,MIL,Milwaukee Brewers,2011,2012
+17,Zack Greinke,LAA,Los Angeles Angels,2012,2012
+17,Zack Greinke,LAD,Los Angeles Dodgers,2013,2015
+17,Zack Greinke,ARI,Arizona Diamondbacks,2016,2019
+17,Zack Greinke,HOU,Houston Astros,2019,2021
+17,Zack Greinke,KCR,Kansas City Royals,2022,2023
+18,Luis Castillo,CIN,Cincinatti Reds,2017,2022
+18,Luis Castillo,SEA,Seattle Mariners,2022,Present
+19,Shohei Ohtani,LAA,Los Angeles Angels,2018,2023
+19,Shohei Ohtani,LAD,Los Angeles Dodgers,2024,Present
+20,Gerrit Cole,PIT,Pittsburgh Pirates,2013,2017
+20,Gerrit Cole,HOU,Houston Astros,2018,2019
+20,Gerrit Cole,NYY,New York Yankees,2020,Present
+21,Francisco Lindor,CLE,Cleveland Guardians,2015,2020
+21,Francisco Lindor,NYM,New York Mets,2021,Present
+22,Trea Turner,WSN,Washington Nationals,2015,2021
+22,Trea Turner,LAD,Los Angeles Dodgers,2021,2022
+22,Trea Turner,PHI,Philadelphia Phillies,2023,Present
+23,Manny Machado,BAL,Baltimore Orioles,2012,2018
+23,Manny Machado,LAD,Los Angeles Dodgers,2018,2018
+23,Manny Machado,SDP,San Diego Padres,2019,Present
+24,Corbin Burnes,MIL,Milwaukee Brewers,2018,2023
+24,Corbin Burnes,BAL,Baltimore Orioles,2024,Present
+25,Yordan Alvarez,HOU,Houston Astros,2019,Present
+26,Jose Altuve,HOU,Houston Astros,2011,Present
+27,Matt Olson,OAK,Oakland Athletics,2016,2021
+27,Matt Olson,ATL,Atlanta Braves,2022,Present
+28,Jose Ramirez,CLE,Cleveland Guardians,2013,Present
+29,Corbin Carroll,ARI,Arizona Diamondbacks,2022,Present
+30,Zac Gallen,MIA,Miami Marlins,2019,2019
+30,Zac Gallen,ARI,Arizona Diamondbacks,2019,Present
+31,Marcus Semien,CHW,Chiaco White Sox,2013,2014
+31,Marcus Semien,OAK,Oakland Athletics,2015,2020
+31,Marcus Semien,TOR,Toronto Blue Jays,2021,2021
+31,Marcus Semien,TEX,Texas Rangers,2022,Present
+32,Blake Snell,TBR,Tampa Bay Rays,2016,2020
+32,Blake Snell,SDP,San Diego Padres,2021,2023
+32,Blake Snell,SFG,San Francisco Giants,2024,Present
+33,Adolis Garcia,STL,St Louis Cardinals,2018,2018
+33,Adolis Garcia,TEX,Texas Rangers,2020,Present
+34,Zack Wheeler,NYM,New York Mets,2013,2019
+34,Zack Wheeler,PHI,Philadelphia Phillies,2020,Present
+35,Tyler Glasnow,PIT,Pittsburgh Pirates,2016,2018
+35,Tyler Glasnow,TBR,Tampa Bay Rays,2018,2023
+35,Tyler Glasnow,LAD,Los Angeles Dodgers,2024,Present
+36,Teoscar Hernandez,HOU,Houston Astros,2016,2017
+36,Teoscar Hernandez,TOR,Toronto Blue Jays,2017,2022
+36,Teoscar Hernandez,SEA,Seattle Mariners,2023,2023
+37,Teoscar Hernandez,LAD,Los Angeles Dodgers,2024,Present
+38,Bobby Witt Jr.,KCR,Kansas City Royals,2022,Present
+39,Giancarlo Stanton,MIA,Miami Marlins,2010,2017
+39,Giancarlo Stanton,NYY,New York Yankees,2018,Present
+40,Christian Yelich,MIA,Miami Marlins,2013,2017
+40,Christian Yelich,MIL,Milwaukee Brewers,2018,Present
+41,Anthony Rizzo,SDP,San Diego Padres,2011,2011
+41,Anthony Rizzo,CHC,Chicago Cubs,2012,2021
+41,Anthony Rizzo,NYY,New York Yankees,2021,Present
+41,Chris Sale,CHW,Chicago White Sox,2010,2016
+41,Chris Sale,BOS,Boston Red Sox,2017,2023
+41,Chris Sale,ATL,Atlanta Braves,2024,Present
+42,Aaron Nola,PHI,Philadelphia Phillies,2015,Present
+43,Matt Chapman,OAK,Oakland Athletics,2017,2021
+44,Matt Chapman,TOR,Toronto Blue Jays,2022,2023
+44,Matt Chapman,SFG,San Francisco Giants,2024,Present
+45,Dylan Cease,CHW,Chicao White Sox,2019,2023
+45,Dylan Cease,SDP,San Diego Padres,2024,Present
+46,Jack Flaherty,STL,St Louis Cardinals,2017,2023
+46,Jack Flaherty,BAL,Baltimore Orioles,2023,2023
+46,Jack Flaherty,DET,Detroit Tigers,2024,2024
+46,Jack Flaherty,LAD,Los Angeles Dodgers,2024,Present
+47,Seth Lugo,NYM,New York Mets,2016,2022
+47,Seth Lugo,SDP,San Diego Padres,2023,2023
+47,Seth Lugo,KCR,Kansas City Royals,2024,Present
+48,Marcell Ozuna,MIA,Miami Marlins,2013,2017
+48,Marcell Ozuna,STL,St Louis Cardinals,2018,2019
+48,Marcell Ozuna,ATL,Atlanta Braves,2020,Present
+49,Luis Arraez,MIN,Minnesota Twins,2019,2022
+49,Luis Arraez,MIA,Miami Marlins,2023,2024
+49,Luis Arraez,SDP,San Diego Padreas,2024,Present
+50,Josh Hader,MIL,Milwaukee Brewers,2017,2022
+50,Josh Hader,SDP,San Diego Padres,2023,2024
+50,Josh Hader,HOU,Houston Astros,2024,Present
+51,Jose Abreu,CHW,Chicago White Sox,2014,2022
+51,Jose Abreu,HOU,Houston Astros,2023,2024
+52,Kevin Gausman,BAL,Baltimore Orioles,2013,2018
+52,Kevin Gausman,ATL,Atlanta Braves,2018,2019
+52,Kevin Gausman,CIN,Cincinatti Reds,2019,2019
+52,Kevin Gausman,SFG,San Francisco Giants,2020,2021
+52,Kevin Gausman,TOR,Toronto Blue Jays,2022,Present
+53,Chris Bassitt,CHW,Chicago White Sox,2014,2014
+54,Chris Bassitt,OAK,Oakland Athletics,2015,2021
+54,Chris Bassitt,NYM,New York Mets,2022,2022
+54,Chris Bassitt,TOR,Toronto Blue Jays,2023,Present
+55,Pablo Lopez,MIA,Miami Marlins,2018,2022
+55,Pablo Lopez,MIN,Minnesota Twins,2023,Present
+56,Sonny Gray,OAK,Oakland Athletics,2013,2017
+56,Sonny Gray,NYY,New York Yankees,2017,2018
+56,Sonny Gray,CIN,Cincinatti Reds,2019,2021
+56,Sonny Gray,MIN,Minnesota Twins,2022,2023
+56,Sonny Gray,STL,St Louis Cardinals,2024,Present
+57,Kyle Schwarber,CHC,Chicago Cubs,2015,2020
+57,Kyle Schwarber,BOS,Boston Red Sox,2021,2021
+57,Kyle Schwarber,WSN,Washington Nationals,2021,2021
+57,Kyle Schwarber,PHI,Philadelphia Phillies,2022,Present
+58,Nick Castellanos,DET,Detroit Tigers,2013,2019
+58,Nick Castellanos,CHC,Chicago Cubs,2019,2019
+58,Nick Castellanos,CIN,Cincinatti Reds,2020,2021
+58,Nick Castellanos,PHI,Philadelphia Phillies,2022,Present
+59,Carlos Correa,HOU,Houston Astros,2015,2021
+59,Carlos Correa,MIN,Minnesota Twins,2022,Present
+60,George Springer,HOU,Houston Astros,2014,2020
+60,George Springer,TOR,Toronto Blue Jays,2021,Present

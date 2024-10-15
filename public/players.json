@@ -1,0 +1,650 @@
+[
+  {
+    "playerID": "1",
+    "playerName": "Mike Trout",
+    "teamID": "LAA",
+    "teamName": "Los Angeles Angels",
+    "startYear": "2011",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "2",
+    "playerName": "Bryce Harper",
+    "teamID": "WAS",
+    "teamName": "Washington Nationals",
+    "startYear": "2012",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "2",
+    "playerName": "Bryce Harper",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2019",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "3",
+    "playerName": "Mookie Betts",
+    "teamID": "BOS",
+    "teamName": "Boston Red Sox",
+    "startYear": "2014",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "3",
+    "playerName": "Mookie Betts",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2020",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "4",
+    "playerName": "Aaron judge",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2016",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "5",
+    "playerName": "Jacob deGrom",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2014",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "5",
+    "playerName": "Jacob deGrom",
+    "teamID": "TEX",
+    "teamName": "Texas Rangers",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "6",
+    "playerName": "Fernando Tatis Jr.",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2019",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "7",
+    "playerName": "Juan Soto",
+    "teamID": "WAS",
+    "teamName": "Washington Nationals",
+    "startYear": "2018",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "7",
+    "playerName": "Juan Soto",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "7",
+    "playerName": "Juan Soto",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "8",
+    "playerName": "Max Scherzer",
+    "teamID": "WAS",
+    "teamName": "Washington Nationals",
+    "startYear": "2015",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "8",
+    "playerName": "Max Scherzer",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2021",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "8",
+    "playerName": "Max Scherzer",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "8",
+    "playerName": "Max Scherzer",
+    "teamID": "TEX",
+    "teamName": "Texas Rangers",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "9",
+    "playerName": "Nolan Arenado",
+    "teamID": "COL",
+    "teamName": "Colorado Rockies",
+    "startYear": "2013",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "9",
+    "playerName": "Nolan Arenado",
+    "teamID": "STL",
+    "teamName": "St. Louis Cardinals",
+    "startYear": "2021",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "10",
+    "playerName": "Freddie Freeman",
+    "teamID": "ATL",
+    "teamName": "Atlanta Braves",
+    "startYear": "2010",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "10",
+    "playerName": "Freddie Freeman",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "11",
+    "playerName": "Justin Verlander",
+    "teamID": "DET",
+    "teamName": "Detroit Tigers",
+    "startYear": "2005",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "11",
+    "playerName": "Justin Verlander",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2018",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "11",
+    "playerName": "Justin Verlander",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2023",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "11",
+    "playerName": "Justin Verlander",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "12",
+    "playerName": "Julio Rodriguez",
+    "teamID": "SEA",
+    "teamName": "Seattle Mariners",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "13",
+    "playerName": "Corey Seager",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2015",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "13",
+    "playerName": "Corey Seager",
+    "teamID": "TEX",
+    "teamName": "Texas Rangers",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "14",
+    "playerName": "Justin Turner",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2009",
+    "endYear": "2010"
+  },
+  {
+    "playerID": "14",
+    "playerName": "Justin Turner",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2010",
+    "endYear": "2010"
+  },
+  {
+    "playerID": "14",
+    "playerName": "Justin Turner",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2010",
+    "endYear": "2010"
+  },
+  {
+    "playerID": "15",
+    "playerName": "Justin Turner",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2011",
+    "endYear": "2013"
+  },
+  {
+    "playerID": "15",
+    "playerName": "Justin Turner",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2014",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "15",
+    "playerName": "Justin Turner",
+    "teamID": "BOS",
+    "teamName": "Boston Red Sox",
+    "startYear": "2023",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "15",
+    "playerName": "Justin Turner",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2024",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "15",
+    "playerName": "Justin Turner",
+    "teamID": "SEA",
+    "teamName": "Seattle Mariners",
+    "startYear": "2024",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "16",
+    "playerName": "Randy Arozarena",
+    "teamID": "STL",
+    "teamName": "St Louis Cardinals",
+    "startYear": "2019",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "16",
+    "playerName": "Randy Arozarena",
+    "teamID": "TBR",
+    "teamName": "Tampa Bay Rays",
+    "startYear": "2020",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "16",
+    "playerName": "Randy Arozarena",
+    "teamID": "SEA",
+    "teamName": "Seattle Mariners",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "KCR",
+    "teamName": "Kansas City Royals",
+    "startYear": "2004",
+    "endYear": "2010"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "startYear": "2011",
+    "endYear": "2012"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "LAA",
+    "teamName": "Los Angeles Angels",
+    "startYear": "2012",
+    "endYear": "2012"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2013",
+    "endYear": "2015"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "startYear": "2016",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2019",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "17",
+    "playerName": "Zack Greinke",
+    "teamID": "KCR",
+    "teamName": "Kansas City Royals",
+    "startYear": "2022",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "18",
+    "playerName": "Luis Castillo",
+    "teamID": "CIN",
+    "teamName": "Cincinatti Reds",
+    "startYear": "2017",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "18",
+    "playerName": "Luis Castillo",
+    "teamID": "SEA",
+    "teamName": "Seattle Mariners",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "19",
+    "playerName": "Shohei Ohtani",
+    "teamID": "LAA",
+    "teamName": "Los Angeles Angels",
+    "startYear": "2018",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "19",
+    "playerName": "Shohei Ohtani",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "20",
+    "playerName": "Gerrit Cole",
+    "teamID": "PIT",
+    "teamName": "Pittsburgh Pirates",
+    "startYear": "2013",
+    "endYear": "2017"
+  },
+  {
+    "playerID": "20",
+    "playerName": "Gerrit Cole",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2018",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "20",
+    "playerName": "Gerrit Cole",
+    "teamID": "NYY",
+    "teamName": "New York Yankees",
+    "startYear": "2020",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "21",
+    "playerName": "Francisco Lindor",
+    "teamID": "CLE",
+    "teamName": "Cleveland Guardians",
+    "startYear": "2015",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "21",
+    "playerName": "Francisco Lindor",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2021",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "22",
+    "playerName": "Trea Turner",
+    "teamID": "WSN",
+    "teamName": "Washington Nationals",
+    "startYear": "2015",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "22",
+    "playerName": "Trea Turner",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2021",
+    "endYear": "2022"
+  },
+  {
+    "playerID": "22",
+    "playerName": "Trea Turner",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2023",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "23",
+    "playerName": "Manny Machado",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2012",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "23",
+    "playerName": "Manny Machado",
+    "teamID": "LAD",
+    "teamName": "Los Angeles Dodgers",
+    "startYear": "2018",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "23",
+    "playerName": "Manny Machado",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2019",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "24",
+    "playerName": "Corbin Burnes",
+    "teamID": "MIL",
+    "teamName": "Milwaukee Brewers",
+    "startYear": "2018",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "24",
+    "playerName": "Corbin Burnes",
+    "teamID": "BAL",
+    "teamName": "Baltimore Orioles",
+    "startYear": "2024",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "25",
+    "playerName": "Yordan Alvarez",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2019",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "26",
+    "playerName": "Jose Altuve",
+    "teamID": "HOU",
+    "teamName": "Houston Astros",
+    "startYear": "2011",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "27",
+    "playerName": "Matt Olson",
+    "teamID": "OAK",
+    "teamName": "Oakland Athletics",
+    "startYear": "2016",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "27",
+    "playerName": "Matt Olson",
+    "teamID": "ATL",
+    "teamName": "Atlanta Braves",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "28",
+    "playerName": "Jose Ramirez",
+    "teamID": "CLE",
+    "teamName": "Cleveland Guardians",
+    "startYear": "2013",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "29",
+    "playerName": "Corbin Carroll",
+    "teamID": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "30",
+    "playerName": "Zac Gallen",
+    "teamID": "MIA",
+    "teamName": "Miami Marlins",
+    "startYear": "2019",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "30",
+    "playerName": "Zac Gallen",
+    "teamID": "ARI",
+    "teamName": "Arizona Diamondbacks",
+    "startYear": "2019",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "31",
+    "playerName": "Marcus Semien",
+    "teamID": "CHW",
+    "teamName": "Chiaco White Sox",
+    "startYear": "2013",
+    "endYear": "2014"
+  },
+  {
+    "playerID": "31",
+    "playerName": "Marcus Semien",
+    "teamID": "OAK",
+    "teamName": "Oakland Athletics",
+    "startYear": "2015",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "31",
+    "playerName": "Marcus Semien",
+    "teamID": "TOR",
+    "teamName": "Toronto Blue Jays",
+    "startYear": "2021",
+    "endYear": "2021"
+  },
+  {
+    "playerID": "31",
+    "playerName": "Marcus Semien",
+    "teamID": "TEX",
+    "teamName": "Texas Rangers",
+    "startYear": "2022",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "32",
+    "playerName": "Blake Snell",
+    "teamID": "TBR",
+    "teamName": "Tampa Bay Rays",
+    "startYear": "2016",
+    "endYear": "2020"
+  },
+  {
+    "playerID": "32",
+    "playerName": "Blake Snell",
+    "teamID": "SDP",
+    "teamName": "San Diego Padres",
+    "startYear": "2021",
+    "endYear": "2023"
+  },
+  {
+    "playerID": "32",
+    "playerName": "Blake Snell",
+    "teamID": "SFG",
+    "teamName": "San Francisco Giants",
+    "startYear": "2024",
+    "endYear": "2024"
+  },
+  {
+    "playerID": "33",
+    "playerName": "Adolis Garcia",
+    "teamID": "STL",
+    "teamName": "St Louis Cardinals",
+    "startYear": "2018",
+    "endYear": "2018"
+  },
+  {
+    "playerID": "33",
+    "playerName": "Adolis Garcia",
+    "teamID": "TEX",
+    "teamName": "Texas Rangers",
+    "startYear": "2020",
+    "endYear": "Present"
+  },
+  {
+    "playerID": "34",
+    "playerName": "Zack Wheeler",
+    "teamID": "NYM",
+    "teamName": "New York Mets",
+    "startYear": "2013",
+    "endYear": "2019"
+  },
+  {
+    "playerID": "34",
+    "playerName": "Zack Wheeler",
+    "teamID": "PHI",
+    "teamName": "Philadelphia Phillies",
+    "startYear": "2020",
+    "endYear": "Present"
+  }
+]

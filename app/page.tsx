@@ -1,99 +1,163 @@
+"use client";
+
 import Image from "next/image";
+import React, { useState, useEffect } from 'react';
+import { alLogos } from './alLogos';
+import { nlLogos } from './nlLogos';
+import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo } from './gameState';
 
-export default function Home() {
+export default function Component() {
+  const [playerNames, setPlayerNames] = useState<string[]>([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [suggestions, setSuggestions] = useState<string[]>([]);
+  const [hints, setHints] = useState<({ logo: TeamLogo; years: string } | null)[]>([]);
+  const [message, setMessage] = useState<string>('');
+  
+  useEffect(() => {
+    const names = getAllPlayerNames();
+    setPlayerNames(names);
+    const { firstHint } = startNewRound();
+    setHints(firstHint ? [firstHint] : []);
+  }, []);
+
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value;
+    setSearchTerm(value);
+
+    if (value.length > 0) {
+      const filteredSuggestions = playerNames.filter(name =>
+        name.toLowerCase().includes(value.toLowerCase())
+      );
+      setSuggestions(filteredSuggestions);
+    } else {
+      setSuggestions([]);
+    }
+  };
+
+  const handleSuggestionClick = (name: string) => {
+    setSearchTerm(name);
+    setSuggestions([]);
+    const result = handleGuess(name);
+    setMessage(result.message);
+    setHints(result.hints);
+    if (result.correct) {
+      setSearchTerm('');
+      const { firstHint } = startNewRound();
+      setHints(firstHint ? [firstHint] : []);
+    }
+  };
+
+  const handleNewPlayer = () => {
+    const { firstHint } = startNewRound();
+    setHints(firstHint ? [firstHint] : []);
+    setMessage('');
+    setSearchTerm('');
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <header className="w-full row-start-1 flex justify-between items-center p-4 bg-gray-800">
+        <div className="text-white text-2xl font-bold">
+          Team Player
+        </div>
+        <button className="text-white focus:outline-none">
+          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
+        <div className="flex items-center justify-center p-4 w-full">
+          <div className="relative w-full max-w-3xl">
+            <input
+              type="text"
+              className="searchbar w-full h-12 pl-4 pr-20 text-sm text-black border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-300"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={handleSearch}
             />
-            Deploy now
+            <button
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white rounded-lg px-4 h-10 hover:bg-blue-500 focus:outline-none"
+              type="button"
+            >
+              Search
+            </button>
+
+            {suggestions.length > 0 && (
+              <ul className="absolute z-10 text-black w-full bg-white border border-gray-300 rounded-lg mt-1 max-h-60 overflow-y-auto">
+                {suggestions
+                  .filter(name => name.toLowerCase().startsWith(searchTerm.toLowerCase()))
+                  .map((name, index) => (
+                    <li 
+                      key={index} 
+                      className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                      onClick={() => handleSuggestionClick(name)}
+                    >
+                      {name}
+                    </li>
+                  ))
+                }
+              </ul>
+            )}
+          </div>
+        </div>
+
+        <div className="w-full flex flex-col items-center justify-center text-center">
+          <p className="text-lg font-semibold mb-2">Current Hints:</p>
+          {hints.map((hint, index) => (
+            hint && (
+              <div key={index} className="flex items-center justify-center mb-4">
+                <Image
+                  src={hint.logo.src}
+                  alt={hint.logo.alt}
+                  width={80}
+                  height={80}
+                  className="mr-4"
+                />
+                <p>{hint.years}</p>
+              </div>
+            )
+          ))}
+          <p className="mt-4 font-bold">{message}</p>
+        </div>
+
+        <div className="flex items-center justify-center w-full flex-col sm:flex-row bg-gray-800 text-white gap-2">
+          <a className="rounded-full border border-solid border-black/[0.08] dark:border-white/[.145] flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44">
+            Guess the player based on the teams they played for
           </a>
-          <a
+          <button
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={handleNewPlayer}
           >
-            Read our docs
-          </a>
+            New Player
+          </button>
         </div>
       </main>
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/ronanwhite"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
+          @ Ronan White 2024
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://github.com/rpwhite02"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+            alt="Github Icon"
+            width={25}
+            height={25}
           />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
+          Check out the project on Github
         </a>
       </footer>
     </div>
