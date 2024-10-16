@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 import { alLogos } from './alLogos';
 import { nlLogos } from './nlLogos';
-import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo } from './gameState';
+import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint } from './gameState';
 
 export default function Component() {
   const [playerNames, setPlayerNames] = useState<string[]>([]);
@@ -49,9 +49,24 @@ export default function Component() {
 
   const handleNewPlayer = () => {
     const { firstHint } = startNewRound();
-    setHints(firstHint ? [firstHint] : []);
-    setMessage('');
+    if (firstHint) {
+      setHints([firstHint]);
+      setMessage('');
+    } else {
+      setHints([]);
+      setMessage('Unable to generate a hint. Please try again.');
+    }
     setSearchTerm('');
+  };
+
+  const regenerateHint = () => {
+    const newHint = getNextHint();
+    if (newHint) {
+      setHints(prevHints => [...prevHints, newHint]);
+      setMessage('');
+    } else {
+      setMessage('No more hints available for this player.');
+    }
   };
 
   return (
@@ -67,7 +82,35 @@ export default function Component() {
         </button>
       </header>
 
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start justify-center w-full">
+        <div className="w-full flex justify-center mb-4">
+          <a className="px-4 py-2 rounded text-center font-bold">
+            Guess the player based on the teams they played for
+          </a>
+        </div>
+        <div className="w-full flex flex-col items-center justify-center text-center">
+          <p className="text-lg font-semibold mb-2">Current Hints:</p>
+          {hints.length > 0 ? (
+            hints.map((hint, index) => (
+              hint && (
+                <div key={index} className="flex items-center justify-center mb-4">
+                  <Image
+                    src={hint.logo.src}
+                    alt={hint.logo.alt}
+                    width={80}
+                    height={80}
+                    className="mr-4"
+                  />
+                  <p>{hint.years}</p>
+                </div>
+              )
+            ))
+          ) : (
+            <p>No hints available. Try generating a new player.</p>
+          )}
+          <p className="mt-4 font-bold">{message}</p>
+        </div>
+
         <div className="flex items-center justify-center p-4 w-full">
           <div className="relative w-full max-w-3xl">
             <input
@@ -103,35 +146,21 @@ export default function Component() {
           </div>
         </div>
 
-        <div className="w-full flex flex-col items-center justify-center text-center">
-          <p className="text-lg font-semibold mb-2">Current Hints:</p>
-          {hints.map((hint, index) => (
-            hint && (
-              <div key={index} className="flex items-center justify-center mb-4">
-                <Image
-                  src={hint.logo.src}
-                  alt={hint.logo.alt}
-                  width={80}
-                  height={80}
-                  className="mr-4"
-                />
-                <p>{hint.years}</p>
-              </div>
-            )
-          ))}
-          <p className="mt-4 font-bold">{message}</p>
-        </div>
-
-        <div className="flex items-center justify-center w-full flex-col sm:flex-row bg-gray-800 text-white gap-2">
-          <a className="rounded-full border border-solid border-black/[0.08] dark:border-white/[.145] flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44">
-            Guess the player based on the teams they played for
-          </a>
-          <button
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            onClick={handleNewPlayer}
-          >
-            New Player
-          </button>
+        <div className="flex items-center justify-center w-full flex-col sm:flex-row text-white gap-2">
+          <div className="flex flex-col sm:flex-row gap-2">
+            <button
+              className="rounded-full border bg-gray-800 border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              onClick={handleNewPlayer}
+            >
+              New Player
+            </button>
+            <button
+              className="rounded-full border bg-gray-800 border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+              onClick={regenerateHint}
+            > 
+              Generate New Hint
+            </button>
+          </div>
         </div>
       </main>
 

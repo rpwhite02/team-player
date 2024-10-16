@@ -94,11 +94,22 @@ export function handleGuess(playerName: string): { correct: boolean; message: st
 
 // Start a new round
 export function startNewRound(): { player: Player; firstHint: { logo: TeamLogo; years: string } | null } {
-  currentGame.selectedPlayer = getRandomPlayer();
-  currentGame.hints = [];
-  currentGame.guessCount = 0;
-  const firstHint = getNextHint();
-  return { player: currentGame.selectedPlayer, firstHint };
+  let attempts = 0;
+  const maxAttempts = 5;
+
+  while (attempts < maxAttempts) {
+    currentGame.selectedPlayer = getRandomPlayer();
+    currentGame.hints = [];
+    currentGame.guessCount = 0;
+    const firstHint = getNextHint();
+    if (firstHint) {
+      return { player: currentGame.selectedPlayer, firstHint };
+    }
+    attempts++;
+  }
+
+  // If we couldn't find a player with a valid hint after maxAttempts, return null
+  return { player: currentGame.selectedPlayer!, firstHint: null };
 }
 
 // Get all player names (for search functionality)
