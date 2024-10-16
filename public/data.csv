@@ -34,7 +34,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 15,Justin Turner,BOS,Boston Red Sox,2023,2023
 15,Justin Turner,TOR,Toronto Blue Jays,2024,2024
 15,Justin Turner,SEA,Seattle Mariners,2024,Present
-16,Randy Arozarena,STL,St Louis Cardinals,2019,2019
+16,Randy Arozarena,STL,St. Louis Cardinals,2019,2019
 16,Randy Arozarena,TBR,Tampa Bay Rays,2020,2024
 16,Randy Arozarena,SEA,Seattle Mariners,2024,Present
 17,Zack Greinke,KCR,Kansas City Royals,2004,2010
@@ -76,7 +76,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 32,Blake Snell,TBR,Tampa Bay Rays,2016,2020
 32,Blake Snell,SDP,San Diego Padres,2021,2023
 32,Blake Snell,SFG,San Francisco Giants,2024,Present
-33,Adolis Garcia,STL,St Louis Cardinals,2018,2018
+33,Adolis Garcia,STL,St. Louis Cardinals,2018,2018
 33,Adolis Garcia,TEX,Texas Rangers,2020,Present
 34,Zack Wheeler,NYM,New York Mets,2013,2019
 34,Zack Wheeler,PHI,Philadelphia Phillies,2020,Present
@@ -104,7 +104,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 44,Matt Chapman,SFG,San Francisco Giants,2024,Present
 45,Dylan Cease,CHW,Chicao White Sox,2019,2023
 45,Dylan Cease,SDP,San Diego Padres,2024,Present
-46,Jack Flaherty,STL,St Louis Cardinals,2017,2023
+46,Jack Flaherty,STL,St. Louis Cardinals,2017,2023
 46,Jack Flaherty,BAL,Baltimore Orioles,2023,2023
 46,Jack Flaherty,DET,Detroit Tigers,2024,2024
 46,Jack Flaherty,LAD,Los Angeles Dodgers,2024,Present
@@ -112,7 +112,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 47,Seth Lugo,SDP,San Diego Padres,2023,2023
 47,Seth Lugo,KCR,Kansas City Royals,2024,Present
 48,Marcell Ozuna,MIA,Miami Marlins,2013,2017
-48,Marcell Ozuna,STL,St Louis Cardinals,2018,2019
+48,Marcell Ozuna,STL,St. Louis Cardinals,2018,2019
 48,Marcell Ozuna,ATL,Atlanta Braves,2020,Present
 49,Luis Arraez,MIN,Minnesota Twins,2019,2022
 49,Luis Arraez,MIA,Miami Marlins,2023,2024
@@ -137,7 +137,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 56,Sonny Gray,NYY,New York Yankees,2017,2018
 56,Sonny Gray,CIN,Cincinatti Reds,2019,2021
 56,Sonny Gray,MIN,Minnesota Twins,2022,2023
-56,Sonny Gray,STL,St Louis Cardinals,2024,Present
+56,Sonny Gray,STL,St. Louis Cardinals,2024,Present
 57,Kyle Schwarber,CHC,Chicago Cubs,2015,2020
 57,Kyle Schwarber,BOS,Boston Red Sox,2021,2021
 57,Kyle Schwarber,WSN,Washington Nationals,2021,2021
