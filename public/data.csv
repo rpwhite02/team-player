@@ -4,7 +4,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 2,Bryce Harper,PHI,Philadelphia Phillies,2019,Present
 3,Mookie Betts,BOS,Boston Red Sox,2014,2019
 3,Mookie Betts,LAD,Los Angeles Dodgers,2020,Present
-4,Aaron judge,NYY,New York Yankees,2016,Present
+4,Aaron Judge,NYY,New York Yankees,2016,Present
 5,Jacob deGrom,NYM,New York Mets,2014,2022
 5,Jacob deGrom,TEX,Texas Rangers,2023,Present
 6,Fernando Tatis Jr.,SDP,San Diego Padres,2019,Present
@@ -44,7 +44,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 17,Zack Greinke,ARI,Arizona Diamondbacks,2016,2019
 17,Zack Greinke,HOU,Houston Astros,2019,2021
 17,Zack Greinke,KCR,Kansas City Royals,2022,2023
-18,Luis Castillo,CIN,Cincinatti Reds,2017,2022
+18,Luis Castillo,CIN,Cincinnati Reds,2017,2022
 18,Luis Castillo,SEA,Seattle Mariners,2022,Present
 19,Shohei Ohtani,LAA,Los Angeles Angels,2018,2023
 19,Shohei Ohtani,LAD,Los Angeles Dodgers,2024,Present
@@ -69,7 +69,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 29,Corbin Carroll,ARI,Arizona Diamondbacks,2022,Present
 30,Zac Gallen,MIA,Miami Marlins,2019,2019
 30,Zac Gallen,ARI,Arizona Diamondbacks,2019,Present
-31,Marcus Semien,CHW,Chiaco White Sox,2013,2014
+31,Marcus Semien,CHW,Chicago White Sox,2013,2014
 31,Marcus Semien,OAK,Oakland Athletics,2015,2020
 31,Marcus Semien,TOR,Toronto Blue Jays,2021,2021
 31,Marcus Semien,TEX,Texas Rangers,2022,Present
@@ -102,7 +102,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 43,Matt Chapman,OAK,Oakland Athletics,2017,2021
 44,Matt Chapman,TOR,Toronto Blue Jays,2022,2023
 44,Matt Chapman,SFG,San Francisco Giants,2024,Present
-45,Dylan Cease,CHW,Chicao White Sox,2019,2023
+45,Dylan Cease,CHW,Chicago White Sox,2019,2023
 45,Dylan Cease,SDP,San Diego Padres,2024,Present
 46,Jack Flaherty,STL,St. Louis Cardinals,2017,2023
 46,Jack Flaherty,BAL,Baltimore Orioles,2023,2023
@@ -116,7 +116,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 48,Marcell Ozuna,ATL,Atlanta Braves,2020,Present
 49,Luis Arraez,MIN,Minnesota Twins,2019,2022
 49,Luis Arraez,MIA,Miami Marlins,2023,2024
-49,Luis Arraez,SDP,San Diego Padreas,2024,Present
+49,Luis Arraez,SDP,San Diego Padres,2024,Present
 50,Josh Hader,MIL,Milwaukee Brewers,2017,2022
 50,Josh Hader,SDP,San Diego Padres,2023,2024
 50,Josh Hader,HOU,Houston Astros,2024,Present
@@ -124,7 +124,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 51,Jose Abreu,HOU,Houston Astros,2023,2024
 52,Kevin Gausman,BAL,Baltimore Orioles,2013,2018
 52,Kevin Gausman,ATL,Atlanta Braves,2018,2019
-52,Kevin Gausman,CIN,Cincinatti Reds,2019,2019
+52,Kevin Gausman,CIN,Cincinnati Reds,2019,2019
 52,Kevin Gausman,SFG,San Francisco Giants,2020,2021
 52,Kevin Gausman,TOR,Toronto Blue Jays,2022,Present
 53,Chris Bassitt,CHW,Chicago White Sox,2014,2014
@@ -135,7 +135,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 55,Pablo Lopez,MIN,Minnesota Twins,2023,Present
 56,Sonny Gray,OAK,Oakland Athletics,2013,2017
 56,Sonny Gray,NYY,New York Yankees,2017,2018
-56,Sonny Gray,CIN,Cincinatti Reds,2019,2021
+56,Sonny Gray,CIN,Cincinnati Reds,2019,2021
 56,Sonny Gray,MIN,Minnesota Twins,2022,2023
 56,Sonny Gray,STL,St. Louis Cardinals,2024,Present
 57,Kyle Schwarber,CHC,Chicago Cubs,2015,2020
@@ -144,7 +144,7 @@ playerID,playerName,teamID,teamName,startYear,endYear
 57,Kyle Schwarber,PHI,Philadelphia Phillies,2022,Present
 58,Nick Castellanos,DET,Detroit Tigers,2013,2019
 58,Nick Castellanos,CHC,Chicago Cubs,2019,2019
-58,Nick Castellanos,CIN,Cincinatti Reds,2020,2021
+58,Nick Castellanos,CIN,Cincinnati Reds,2020,2021
 58,Nick Castellanos,PHI,Philadelphia Phillies,2022,Present
 59,Carlos Correa,HOU,Houston Astros,2015,2021
 59,Carlos Correa,MIN,Minnesota Twins,2022,Present

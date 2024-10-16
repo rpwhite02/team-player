@@ -41,7 +41,7 @@
   },
   {
     "playerID": "4",
-    "playerName": "Aaron judge",
+    "playerName": "Aaron Judge",
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2016",
@@ -363,7 +363,7 @@
     "playerID": "18",
     "playerName": "Luis Castillo",
     "teamID": "CIN",
-    "teamName": "Cincinatti Reds",
+    "teamName": "Cincinnati Reds",
     "startYear": "2017",
     "endYear": "2022"
   },
@@ -563,7 +563,7 @@
     "playerID": "31",
     "playerName": "Marcus Semien",
     "teamID": "CHW",
-    "teamName": "Chiaco White Sox",
+    "teamName": "Chicago White Sox",
     "startYear": "2013",
     "endYear": "2014"
   },
@@ -827,7 +827,7 @@
     "playerID": "45",
     "playerName": "Dylan Cease",
     "teamID": "CHW",
-    "teamName": "Chicao White Sox",
+    "teamName": "Chicago White Sox",
     "startYear": "2019",
     "endYear": "2023"
   },
@@ -939,7 +939,7 @@
     "playerID": "49",
     "playerName": "Luis Arraez",
     "teamID": "SDP",
-    "teamName": "San Diego Padreas",
+    "teamName": "San Diego Padres",
     "startYear": "2024",
     "endYear": "Present"
   },
@@ -1003,7 +1003,7 @@
     "playerID": "52",
     "playerName": "Kevin Gausman",
     "teamID": "CIN",
-    "teamName": "Cincinatti Reds",
+    "teamName": "Cincinnati Reds",
     "startYear": "2019",
     "endYear": "2019"
   },
@@ -1091,7 +1091,7 @@
     "playerID": "56",
     "playerName": "Sonny Gray",
     "teamID": "CIN",
-    "teamName": "Cincinatti Reds",
+    "teamName": "Cincinnati Reds",
     "startYear": "2019",
     "endYear": "2021"
   },
@@ -1163,7 +1163,7 @@
     "playerID": "58",
     "playerName": "Nick Castellanos",
     "teamID": "CIN",
-    "teamName": "Cincinatti Reds",
+    "teamName": "Cincinnati Reds",
     "startYear": "2020",
     "endYear": "2021"
   },
