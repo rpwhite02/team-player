@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { alLogos } from './alLogos';
 import { nlLogos } from './nlLogos';
 import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint } from './gameState';
+import HeaderIcons from './headerIcons';
 
 export default function Component() {
   const [playerNames, setPlayerNames] = useState<string[]>([]);
@@ -72,14 +73,11 @@ export default function Component() {
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="w-full row-start-1 flex justify-between items-center p-4 bg-gray-800">
-        <div className="text-white text-2xl font-bold">
-          Team Player
+        <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white text-xl font-bold">Team Player</div>
+        {/* The DropdownMenu already contains the button and dropdown logic */}
+          <HeaderIcons />
         </div>
-        <button className="text-white focus:outline-none">
-          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          </svg>
-        </button>
       </header>
 
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start justify-center w-full">
