@@ -75,7 +75,7 @@ export default function Component() {
       <header className="w-full row-start-1 flex justify-between items-center p-4 bg-gray-800">
         <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl font-bold">Team Player</div>
-        {/* The DropdownMenu already contains the button and dropdown logic */}
+        {/* The header icons already contains all icons and different functions for them */}
           <HeaderIcons />
         </div>
       </header>
