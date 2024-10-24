@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from 'react';
 import { alLogos } from './alLogos';
 import { nlLogos } from './nlLogos';
-import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint } from './gameState';
+import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint, revealCurrentPlayer } from './gameState';
 import HeaderIcons from './headerIcons';
 
 export default function Component() {
@@ -13,6 +13,9 @@ export default function Component() {
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [hints, setHints] = useState<({ logo: TeamLogo; years: string } | null)[]>([]);
   const [message, setMessage] = useState<string>('');
+  const [revealedPlayer, setRevealedPlayer] = useState<string | null>(null);
+  const [correctGuess, setCorrectGuess] = useState<boolean>(false);
+  const [guessCount, setGuessCount] = useState<number>(0);
   
   useEffect(() => {
     const names = getAllPlayerNames();
@@ -39,12 +42,20 @@ export default function Component() {
     setSearchTerm(name);
     setSuggestions([]);
     const result = handleGuess(name);
-    setMessage(result.message);
-    setHints(result.hints);
+    setGuessCount(result.guessCount);
     if (result.correct) {
-      setSearchTerm('');
-      const { firstHint } = startNewRound();
-      setHints(firstHint ? [firstHint] : []);
+      setCorrectGuess(true);
+      setMessage('');
+      setTimeout(() => {
+        setCorrectGuess(false);
+        setSearchTerm('');
+        const { firstHint } = startNewRound();
+        setHints(firstHint ? [firstHint] : []);
+        setGuessCount(0);
+      }, 2000);
+    } else {
+      setMessage(result.message);
+      setHints(result.hints);
     }
   };
 
@@ -58,6 +69,8 @@ export default function Component() {
       setMessage('Unable to generate a hint. Please try again.');
     }
     setSearchTerm('');
+    setRevealedPlayer(null);
+    setCorrectGuess(false);
   };
 
   const regenerateHint = () => {
@@ -70,12 +83,25 @@ export default function Component() {
     }
   };
 
+  const handleWhotheHellisThis = () => {
+    const playerName = revealCurrentPlayer();
+    if (playerName) {
+      setRevealedPlayer(playerName);
+      setMessage(`The player was ${playerName} idiot`);
+      setTimeout(() => {
+        handleNewPlayer();
+      }, 2000);
+    } else {
+      setMessage('Unable to reveal player. Starting a new round...');
+      handleNewPlayer();
+    }
+  };
+
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="w-full row-start-1 flex justify-between items-center p-4 bg-gray-800">
         <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl font-bold">Team Player</div>
-        {/* The header icons already contains all icons and different functions for them */}
           <HeaderIcons />
         </div>
       </header>
@@ -87,24 +113,32 @@ export default function Component() {
           </a>
         </div>
         <div className="w-full flex flex-col items-center justify-center text-center">
-          <p className="text-lg font-semibold mb-2">Current Hints:</p>
-          {hints.length > 0 ? (
-            hints.map((hint, index) => (
-              hint && (
-                <div key={index} className="flex items-center justify-center mb-4">
-                  <Image
-                    src={hint.logo.src}
-                    alt={hint.logo.alt}
-                    width={80}
-                    height={80}
-                    className="mr-4"
-                  />
-                  <p>{hint.years}</p>
-                </div>
-              )
-            ))
+          {revealedPlayer ? (
+            <p className="text-2xl font-bold mb-4">{revealedPlayer}</p>
+          ) : correctGuess ? (
+            <p className="text-2xl font-bold mb-4 text-green-500">Correct!</p>
           ) : (
-            <p>No hints available. Try generating a new player.</p>
+            <>
+              {/* <p className="text-lg font-semibold mb-2">Current Hints:</p> */}
+              {hints.length > 0 ? (
+                hints.map((hint, index) => (
+                  hint && (
+                    <div key={index} className="flex items-center justify-center mb-4">
+                      <Image
+                        src={hint.logo.src}
+                        alt={hint.logo.alt}
+                        width={80}
+                        height={80}
+                        className="mr-4"
+                      />
+                      <p>{hint.years}</p>
+                    </div>
+                  )
+                ))
+              ) : (
+                <p>No hints available. Try generating a new player.</p>
+              )}
+            </>
           )}
           <p className="mt-4 font-bold">{message}</p>
         </div>
@@ -160,7 +194,8 @@ export default function Component() {
             </button>
             <button
               className="rounded-full border bg-gray-800 border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            > 
+              onClick={handleWhotheHellisThis}
+            >
               Who the Hell is This
             </button>
           </div>

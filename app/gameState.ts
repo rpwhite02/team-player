@@ -77,17 +77,17 @@ export function getNextHint(): { logo: TeamLogo; years: string } | null {
 }
 
 // Handle a guess
-export function handleGuess(playerName: string): { correct: boolean; message: string; hints: { logo: TeamLogo; years: string }[] } {
+export function handleGuess(playerName: string): { correct: boolean; message: string; hints: { logo: TeamLogo; years: string }[]; guessCount: number } {
   currentGame.guessCount++;
   
   if (playerName === currentGame.selectedPlayer?.playerName) {
-    return { correct: true, message: `Correct! You guessed it in ${currentGame.guessCount} tries.`, hints: currentGame.hints };
+    return { correct: true, message: '', hints: currentGame.hints, guessCount: currentGame.guessCount };
   } else {
     const newHint = getNextHint();
     if (newHint) {
-      return { correct: false, message: `Incorrect! Here's another hint:`, hints: currentGame.hints };
+      return { correct: false, message: `Incorrect! Here's another hint:`, hints: currentGame.hints, guessCount: currentGame.guessCount };
     } else {
-      return { correct: false, message: "No more hints available!", hints: currentGame.hints };
+      return { correct: false, message: "No more hints available!", hints: currentGame.hints, guessCount: currentGame.guessCount };
     }
   }
 }
@@ -120,4 +120,9 @@ export function getAllPlayerNames(): string[] {
 // Get player details by name
 export function getPlayerByName(name: string): Player | undefined {
   return players.find(player => player.playerName.toLowerCase() === name.toLowerCase());
+}
+
+// Show player information when the player presses the who the hell is this button
+export function revealCurrentPlayer(): string | null {
+  return currentGame.selectedPlayer?.playerName || null;
 }
