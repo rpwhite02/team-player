@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import React, { useState, useEffect } from 'react';
-import { alLogos } from './alLogos';
-import { nlLogos } from './nlLogos';
 import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint, revealCurrentPlayer } from './gameState';
 import HeaderIcons from './headerIcons';
 

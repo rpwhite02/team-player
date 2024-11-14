@@ -5,7 +5,8 @@
     "teamID": "LAA",
     "teamName": "Los Angeles Angels",
     "startYear": "2011",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "2",
@@ -13,7 +14,8 @@
     "teamID": "WAS",
     "teamName": "Washington Nationals",
     "startYear": "2012",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "1B/OF"
   },
   {
     "playerID": "2",
@@ -21,7 +23,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B/OF"
   },
   {
     "playerID": "3",
@@ -29,7 +32,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2014",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "OF"
   },
   {
     "playerID": "3",
@@ -37,7 +41,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2020",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "2B/SS/OF"
   },
   {
     "playerID": "4",
@@ -45,7 +50,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2016",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "5",
@@ -53,7 +59,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2014",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "5",
@@ -61,7 +68,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "6",
@@ -69,7 +77,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS/OF"
   },
   {
     "playerID": "7",
@@ -77,7 +86,8 @@
     "teamID": "WAS",
     "teamName": "Washington Nationals",
     "startYear": "2018",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF"
   },
   {
     "playerID": "7",
@@ -85,7 +95,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "OF"
   },
   {
     "playerID": "7",
@@ -93,7 +104,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "8",
@@ -101,7 +113,8 @@
     "teamID": "WAS",
     "teamName": "Washington Nationals",
     "startYear": "2015",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "8",
@@ -109,7 +122,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "8",
@@ -117,7 +131,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "8",
@@ -125,7 +140,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "9",
@@ -133,7 +149,8 @@
     "teamID": "COL",
     "teamName": "Colorado Rockies",
     "startYear": "2013",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "3B"
   },
   {
     "playerID": "9",
@@ -141,7 +158,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2021",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "3B"
   },
   {
     "playerID": "10",
@@ -149,7 +167,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2010",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "1B"
   },
   {
     "playerID": "10",
@@ -157,7 +176,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B"
   },
   {
     "playerID": "11",
@@ -165,7 +185,8 @@
     "teamID": "DET",
     "teamName": "Detroit Tigers",
     "startYear": "2005",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "SP"
   },
   {
     "playerID": "11",
@@ -173,7 +194,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2018",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "11",
@@ -181,7 +203,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "11",
@@ -189,7 +212,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "12",
@@ -197,7 +221,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "13",
@@ -205,7 +230,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2015",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SS"
   },
   {
     "playerID": "13",
@@ -213,7 +239,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "14",
@@ -221,7 +248,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2009",
-    "endYear": "2010"
+    "endYear": "2010",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "14",
@@ -229,7 +257,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2010",
-    "endYear": "2010"
+    "endYear": "2010",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "14",
@@ -237,7 +266,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2010",
-    "endYear": "2010"
+    "endYear": "2010",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "15",
@@ -245,7 +275,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2011",
-    "endYear": "2013"
+    "endYear": "2013",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "15",
@@ -253,7 +284,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2014",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "15",
@@ -261,7 +293,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "15",
@@ -269,7 +302,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2024",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "15",
@@ -277,7 +311,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B/2B/3B"
   },
   {
     "playerID": "16",
@@ -285,7 +320,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2019",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "OF"
   },
   {
     "playerID": "16",
@@ -293,7 +329,8 @@
     "teamID": "TBR",
     "teamName": "Tampa Bay Rays",
     "startYear": "2020",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "OF"
   },
   {
     "playerID": "16",
@@ -301,7 +338,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "17",
@@ -309,7 +347,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2004",
-    "endYear": "2010"
+    "endYear": "2010",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -317,7 +356,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2011",
-    "endYear": "2012"
+    "endYear": "2012",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -325,7 +365,8 @@
     "teamID": "LAA",
     "teamName": "Los Angeles Angels",
     "startYear": "2012",
-    "endYear": "2012"
+    "endYear": "2012",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -333,7 +374,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2013",
-    "endYear": "2015"
+    "endYear": "2015",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -341,7 +383,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2016",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -349,7 +392,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2019",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "17",
@@ -357,7 +401,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "18",
@@ -365,7 +410,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2017",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "18",
@@ -373,7 +419,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "19",
@@ -381,7 +428,8 @@
     "teamID": "LAA",
     "teamName": "Los Angeles Angels",
     "startYear": "2018",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP/DH"
   },
   {
     "playerID": "19",
@@ -389,7 +437,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP/DH"
   },
   {
     "playerID": "20",
@@ -397,7 +446,8 @@
     "teamID": "PIT",
     "teamName": "Pittsburgh Pirates",
     "startYear": "2013",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "SP"
   },
   {
     "playerID": "20",
@@ -405,7 +455,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2018",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "20",
@@ -413,7 +464,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2020",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "21",
@@ -421,7 +473,8 @@
     "teamID": "CLE",
     "teamName": "Cleveland Guardians",
     "startYear": "2015",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "SS"
   },
   {
     "playerID": "21",
@@ -429,7 +482,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2021",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "22",
@@ -437,7 +491,8 @@
     "teamID": "WSN",
     "teamName": "Washington Nationals",
     "startYear": "2015",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SS"
   },
   {
     "playerID": "22",
@@ -445,7 +500,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2021",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SS"
   },
   {
     "playerID": "22",
@@ -453,7 +509,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "23",
@@ -461,7 +518,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2012",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "3B"
   },
   {
     "playerID": "23",
@@ -469,7 +527,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2018",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "3B"
   },
   {
     "playerID": "23",
@@ -477,7 +536,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "3B"
   },
   {
     "playerID": "24",
@@ -485,7 +545,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2018",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "24",
@@ -493,7 +554,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "25",
@@ -501,7 +563,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "26",
@@ -509,7 +572,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2011",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "2B"
   },
   {
     "playerID": "27",
@@ -517,7 +581,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2016",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "1B"
   },
   {
     "playerID": "27",
@@ -525,7 +590,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B"
   },
   {
     "playerID": "28",
@@ -533,7 +599,8 @@
     "teamID": "CLE",
     "teamName": "Cleveland Guardians",
     "startYear": "2013",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "3B"
   },
   {
     "playerID": "29",
@@ -541,7 +608,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "30",
@@ -549,7 +617,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2019",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "30",
@@ -557,7 +626,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "31",
@@ -565,7 +635,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2013",
-    "endYear": "2014"
+    "endYear": "2014",
+    "position": "2B/3B"
   },
   {
     "playerID": "31",
@@ -573,7 +644,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2015",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "SS"
   },
   {
     "playerID": "31",
@@ -581,7 +653,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "2B/SS"
   },
   {
     "playerID": "31",
@@ -589,7 +662,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "2B"
   },
   {
     "playerID": "32",
@@ -597,7 +671,8 @@
     "teamID": "TBR",
     "teamName": "Tampa Bay Rays",
     "startYear": "2016",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "SP"
   },
   {
     "playerID": "32",
@@ -605,7 +680,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2021",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "32",
@@ -613,7 +689,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "33",
@@ -621,7 +698,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2017",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "OF"
   },
   {
     "playerID": "33",
@@ -629,7 +707,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2020",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "34",
@@ -637,7 +716,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2013",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "34",
@@ -645,7 +725,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2020",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "35",
@@ -653,7 +734,8 @@
     "teamID": "PIT",
     "teamName": "Pittsburgh Pirates",
     "startYear": "2016",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "SP"
   },
   {
     "playerID": "35",
@@ -661,7 +743,8 @@
     "teamID": "TBR",
     "teamName": "Tampa Bay Rays",
     "startYear": "2018",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "35",
@@ -669,7 +752,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "36",
@@ -677,7 +761,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2016",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "36",
@@ -685,7 +770,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2017",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF"
   },
   {
     "playerID": "36",
@@ -693,7 +779,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "OF"
   },
   {
     "playerID": "37",
@@ -701,7 +788,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "38",
@@ -709,7 +797,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "39",
@@ -717,7 +806,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2010",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "39",
@@ -725,7 +815,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2018",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF/DH"
   },
   {
     "playerID": "40",
@@ -733,7 +824,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2013",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "40",
@@ -741,7 +833,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2018",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "41",
@@ -749,7 +842,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2011",
-    "endYear": "2011"
+    "endYear": "2011",
+    "position": "1B"
   },
   {
     "playerID": "41",
@@ -757,7 +851,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2012",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "1B"
   },
   {
     "playerID": "41",
@@ -765,7 +860,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2021",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B"
   },
   {
     "playerID": "41",
@@ -773,7 +869,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2010",
-    "endYear": "2016"
+    "endYear": "2016",
+    "position": "SP"
   },
   {
     "playerID": "41",
@@ -781,7 +878,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2017",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "41",
@@ -789,7 +887,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "42",
@@ -797,7 +896,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2015",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "43",
@@ -805,7 +905,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2017",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "3B"
   },
   {
     "playerID": "44",
@@ -813,7 +914,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "3B"
   },
   {
     "playerID": "44",
@@ -821,7 +923,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "3B"
   },
   {
     "playerID": "45",
@@ -829,7 +932,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2019",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "45",
@@ -837,7 +941,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "46",
@@ -845,7 +950,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2017",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "46",
@@ -853,7 +959,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "46",
@@ -861,7 +968,8 @@
     "teamID": "DET",
     "teamName": "Detroit Tigers",
     "startYear": "2024",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "SP"
   },
   {
     "playerID": "46",
@@ -869,7 +977,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "47",
@@ -877,7 +986,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2016",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "47",
@@ -885,7 +995,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "47",
@@ -893,7 +1004,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "48",
@@ -901,7 +1013,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2013",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "48",
@@ -909,7 +1022,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2018",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "OF"
   },
   {
     "playerID": "48",
@@ -917,7 +1031,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2020",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF/DH"
   },
   {
     "playerID": "49",
@@ -925,7 +1040,8 @@
     "teamID": "MIN",
     "teamName": "Minnesota Twins",
     "startYear": "2019",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "1B/2B/SS/OF"
   },
   {
     "playerID": "49",
@@ -933,7 +1049,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2023",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "2B"
   },
   {
     "playerID": "49",
@@ -941,7 +1058,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B/2B"
   },
   {
     "playerID": "50",
@@ -949,7 +1067,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2017",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "RP"
   },
   {
     "playerID": "50",
@@ -957,7 +1076,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2023",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "RP"
   },
   {
     "playerID": "50",
@@ -965,7 +1085,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "51",
@@ -973,7 +1094,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2014",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "1B"
   },
   {
     "playerID": "51",
@@ -981,7 +1103,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2023",
-    "endYear": "2024"
+    "endYear": "Present",
+    "position": "1B"
   },
   {
     "playerID": "52",
@@ -989,7 +1112,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2013",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "SP"
   },
   {
     "playerID": "52",
@@ -997,7 +1121,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2018",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "52",
@@ -1005,7 +1130,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2019",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "52",
@@ -1013,7 +1139,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2020",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "52",
@@ -1021,7 +1148,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "53",
@@ -1029,7 +1157,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2014",
-    "endYear": "2014"
+    "endYear": "2014",
+    "position": "SP"
   },
   {
     "playerID": "54",
@@ -1037,7 +1166,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2015",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "54",
@@ -1045,7 +1175,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "54",
@@ -1053,7 +1184,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "55",
@@ -1061,7 +1193,8 @@
     "teamID": "MIA",
     "teamName": "Miami Marlins",
     "startYear": "2018",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "55",
@@ -1069,7 +1202,8 @@
     "teamID": "MIN",
     "teamName": "Minnesota Twins",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "56",
@@ -1077,7 +1211,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2013",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "SP"
   },
   {
     "playerID": "56",
@@ -1085,7 +1220,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2017",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "SP"
   },
   {
     "playerID": "56",
@@ -1093,7 +1229,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2019",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "56",
@@ -1101,7 +1238,8 @@
     "teamID": "MIN",
     "teamName": "Minnesota Twins",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "56",
@@ -1109,7 +1247,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "57",
@@ -1117,7 +1256,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2015",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "OF"
   },
   {
     "playerID": "57",
@@ -1125,7 +1265,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "OF"
   },
   {
     "playerID": "57",
@@ -1133,7 +1274,8 @@
     "teamID": "WSN",
     "teamName": "Washington Nationals",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "OF"
   },
   {
     "playerID": "57",
@@ -1141,7 +1283,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF/DH"
   },
   {
     "playerID": "58",
@@ -1149,7 +1292,8 @@
     "teamID": "DET",
     "teamName": "Detroit Tigers",
     "startYear": "2013",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "3B/OF"
   },
   {
     "playerID": "58",
@@ -1157,7 +1301,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2019",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "OF"
   },
   {
     "playerID": "58",
@@ -1165,7 +1310,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2020",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "OF"
   },
   {
     "playerID": "58",
@@ -1173,7 +1319,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "59",
@@ -1181,7 +1328,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2015",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SS"
   },
   {
     "playerID": "59",
@@ -1189,7 +1337,8 @@
     "teamID": "MIN",
     "teamName": "Minnesota Twins",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "60",
@@ -1197,7 +1346,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2014",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "OF"
   },
   {
     "playerID": "60",
@@ -1205,7 +1355,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2021",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "61",
@@ -1213,7 +1364,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B/3B"
   },
   {
     "playerID": "62",
@@ -1221,7 +1373,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2018",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "63",
@@ -1229,7 +1382,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2011",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "1B"
   },
   {
     "playerID": "63",
@@ -1237,7 +1391,8 @@
     "teamID": "STL",
     "teamName": "St. Louis Cardinals",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B"
   },
   {
     "playerID": "64",
@@ -1245,7 +1400,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2010",
-    "endYear": "2015"
+    "endYear": "2015",
+    "position": "RP"
   },
   {
     "playerID": "64",
@@ -1253,7 +1409,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2016",
-    "endYear": "2016"
+    "endYear": "2016",
+    "position": "RP"
   },
   {
     "playerID": "64",
@@ -1261,7 +1418,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2016",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "RP"
   },
   {
     "playerID": "64",
@@ -1269,7 +1427,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "RP"
   },
   {
     "playerID": "64",
@@ -1277,7 +1436,8 @@
     "teamID": "TEX",
     "teamName": "Texas Rangers",
     "startYear": "2023",
-    "endYear": "2024"
+    "endYear": "2024",
+    "position": "RP"
   },
   {
     "playerID": "64",
@@ -1285,7 +1445,8 @@
     "teamID": "PIT",
     "teamName": "Pittsburgh",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "65",
@@ -1293,7 +1454,8 @@
     "teamID": "PIT",
     "teamName": "Pittsburgh Pirates",
     "startYear": "2009",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "65",
@@ -1301,7 +1463,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2018",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "OF"
   },
   {
     "playerID": "65",
@@ -1309,7 +1472,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2018",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "OF"
   },
   {
     "playerID": "65",
@@ -1317,7 +1481,8 @@
     "teamID": "PHI",
     "teamName": "Philadelphia Phillies",
     "startYear": "2019",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "OF"
   },
   {
     "playerID": "65",
@@ -1325,7 +1490,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF/DH"
   },
   {
     "playerID": "65",
@@ -1333,7 +1499,8 @@
     "teamID": "PIT",
     "teamName": "Pittscburgh Pirates",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "DH"
   },
   {
     "playerID": "66",
@@ -1341,7 +1508,8 @@
     "teamID": "TOR",
     "teamName": "Toronto Blue Jays",
     "startYear": "2014",
-    "endYear": "2019"
+    "endYear": "2019",
+    "position": "SP"
   },
   {
     "playerID": "66",
@@ -1349,7 +1517,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2019",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "66",
@@ -1357,7 +1526,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2022",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "66",
@@ -1365,7 +1535,8 @@
     "teamID": "NYY",
     "teamName": "New York Yankees",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "67",
@@ -1373,7 +1544,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2016",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SP"
   },
   {
     "playerID": "67",
@@ -1381,7 +1553,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SP"
   },
   {
     "playerID": "67",
@@ -1389,7 +1562,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "SP"
   },
   {
     "playerID": "67",
@@ -1397,7 +1571,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SP"
   },
   {
     "playerID": "68",
@@ -1405,7 +1580,8 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2011",
-    "endYear": "2013"
+    "endYear": "2013",
+    "position": "OF"
   },
   {
     "playerID": "68",
@@ -1413,7 +1589,8 @@
     "teamID": "DET",
     "teamName": "Detrout Tigers",
     "startYear": "2014",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "68",
@@ -1421,7 +1598,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2017",
-    "endYear": "2017"
+    "endYear": "2017",
+    "position": "OF"
   },
   {
     "playerID": "68",
@@ -1429,7 +1607,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2018",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF/DH"
   },
   {
     "playerID": "68",
@@ -1437,7 +1616,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "DH"
   },
   {
     "playerID": "68",
@@ -1445,7 +1625,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "DH"
   },
   {
     "playerID": "69",
@@ -1453,7 +1634,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2013",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "SS"
   },
   {
     "playerID": "69",
@@ -1461,7 +1643,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "2B/SS"
   },
   {
     "playerID": "70",
@@ -1469,7 +1652,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2014",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "2B/3B/SS"
   },
   {
     "playerID": "70",
@@ -1477,7 +1661,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "2B/SS"
   },
   {
     "playerID": "70",
@@ -1485,7 +1670,8 @@
     "teamID": "DET",
     "teamName": "Detroit Tigers",
     "startYear": "2022",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "71",
@@ -1493,7 +1679,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2010",
-    "endYear": "2014"
+    "endYear": "2014",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1501,7 +1688,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2015",
-    "endYear": "2015"
+    "endYear": "2015",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1509,7 +1697,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2016",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1517,7 +1706,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2019",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1525,7 +1715,8 @@
     "teamID": "CHW",
     "teamName": "Chicago White Sox",
     "startYear": "2021",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1533,7 +1724,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1541,7 +1733,8 @@
     "teamID": "PHi",
     "teamName": "Philadelphia Phillies",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "RP"
   },
   {
     "playerID": "71",
@@ -1549,7 +1742,8 @@
     "teamID": "BAL",
     "teamName": "Baltimore Orioles",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "72",
@@ -1557,7 +1751,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2010",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "RP"
   },
   {
     "playerID": "72",
@@ -1565,7 +1760,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "RP"
   },
   {
     "playerID": "72",
@@ -1573,7 +1769,8 @@
     "teamID": "BOS",
     "teamName": "Boston Red Sox",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "73",
@@ -1581,7 +1778,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2016",
-    "endYear": "2018"
+    "endYear": "2018",
+    "position": "RP"
   },
   {
     "playerID": "73",
@@ -1589,7 +1787,8 @@
     "teamID": "NYM",
     "teamName": "New York Mets",
     "startYear": "2019",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "74",
@@ -1597,7 +1796,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2016",
-    "endYear": "2016"
+    "endYear": "2016",
+    "position": "OF"
   },
   {
     "playerID": "74",
@@ -1605,7 +1805,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2017",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF"
   },
   {
     "playerID": "74",
@@ -1613,7 +1814,8 @@
     "teamID": "SFG",
     "teamName": "San Francisco Giants",
     "startYear": "2023",
-    "endYear": "2023"
+    "endYear": "2023",
+    "position": "OF"
   },
   {
     "playerID": "74",
@@ -1621,7 +1823,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2024",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF"
   },
   {
     "playerID": "75",
@@ -1629,7 +1832,8 @@
     "teamID": "CIN",
     "teamName": "Cincinnati Reds",
     "startYear": "2015",
-    "endYear": "2020"
+    "endYear": "2020",
+    "position": "RP"
   },
   {
     "playerID": "75",
@@ -1637,7 +1841,8 @@
     "teamID": "LAA",
     "teamName": "Los Angeles Angels",
     "startYear": "2021",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "RP"
   },
   {
     "playerID": "75",
@@ -1645,7 +1850,8 @@
     "teamID": "ATL",
     "teamName": "Atlanta Braves",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "RP"
   },
   {
     "playerID": "76",
@@ -1653,7 +1859,8 @@
     "teamID": "LAD",
     "teamName": "Los Angeles Dodgers",
     "startYear": "2017",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "1B/OF"
   },
   {
     "playerID": "76",
@@ -1661,7 +1868,8 @@
     "teamID": "CHC",
     "teamName": "Chicago Cubs",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "1B/OF"
   },
   {
     "playerID": "77",
@@ -1669,7 +1877,8 @@
     "teamID": "SEA",
     "teamName": "Seattle Mariners",
     "startYear": "2015",
-    "endYear": "2016"
+    "endYear": "2016",
+    "position": "SS"
   },
   {
     "playerID": "77",
@@ -1677,7 +1886,8 @@
     "teamID": "ARI",
     "teamName": "Arizona Diamondbacks",
     "startYear": "2017",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "2B/SS/OF"
   },
   {
     "playerID": "78",
@@ -1685,7 +1895,8 @@
     "teamID": "MIN",
     "teamName": "Minnesota Twins",
     "startYear": "2020",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "OF"
   },
   {
     "playerID": "78",
@@ -1693,7 +1904,8 @@
     "teamID": "SDP",
     "teamName": "San Diego Padres",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF"
   },
   {
     "playerID": "78",
@@ -1701,7 +1913,8 @@
     "teamID": "KCR",
     "teamName": "Kansas City Royals",
     "startYear": "2022",
-    "endYear": "2022"
+    "endYear": "2022",
+    "position": "OF"
   },
   {
     "playerID": "78",
@@ -1709,7 +1922,8 @@
     "teamID": "OAK",
     "teamName": "Oakland Athletics",
     "startYear": "2023",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "OF/DH"
   },
   {
     "playerID": "79",
@@ -1717,7 +1931,8 @@
     "teamID": "TBR",
     "teamName": "Tampa Bay Rays",
     "startYear": "2018",
-    "endYear": "2021"
+    "endYear": "2021",
+    "position": "SS"
   },
   {
     "playerID": "79",
@@ -1725,7 +1940,8 @@
     "teamID": "MIL",
     "teamName": "Milwaukee Brewers",
     "startYear": "2021",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "SS"
   },
   {
     "playerID": "80",
@@ -1733,6 +1949,7 @@
     "teamID": "HOU",
     "teamName": "Houston Astros",
     "startYear": "2016",
-    "endYear": "Present"
+    "endYear": "Present",
+    "position": "3B"
   }
 ]
