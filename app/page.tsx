@@ -2,24 +2,40 @@
 
 import Image from "next/image";
 import React, { useState, useEffect } from 'react';
-import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint, revealCurrentPlayer } from './gameState';
+import { getAllPlayerNames, startNewRound, handleGuess, TeamLogo, getNextHint, revealCurrentPlayer, Hint } from './gameState';
 import HeaderIcons from './headerIcons';
+import { getSettings, toggleDarkMode, positionsToggle } from './navBarActions';
+
+type PlayerWithPosition = {
+  playerName: string;
+  position: string;
+};
 
 export default function Component() {
   const [playerNames, setPlayerNames] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [suggestions, setSuggestions] = useState<string[]>([]);
-  const [hints, setHints] = useState<({ logo: TeamLogo; years: string } | null)[]>([]);
+  const [hints, setHints] = useState<Hint[]>([]);
   const [message, setMessage] = useState<string>('');
-  const [revealedPlayer, setRevealedPlayer] = useState<string | null>(null);
+  const [revealedPlayer, setRevealedPlayer] = useState<PlayerWithPosition | null>(null);
   const [correctGuess, setCorrectGuess] = useState<boolean>(false);
   const [guessCount, setGuessCount] = useState<number>(0);
+  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [showPositions, setShowPositions] = useState<boolean>(true); // Set to true by default
+  const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
+  const [isPlayerRevealed, setIsPlayerRevealed] = useState<boolean>(false);
   
   useEffect(() => {
     const names = getAllPlayerNames();
     setPlayerNames(names);
     const { firstHint } = startNewRound();
     setHints(firstHint ? [firstHint] : []);
+
+    const settings = getSettings();
+    if (settings) {
+      setDarkMode(settings.darkMode);
+      setShowPositions(settings.positionsOn);
+    }
   }, []);
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -69,6 +85,7 @@ export default function Component() {
     setSearchTerm('');
     setRevealedPlayer(null);
     setCorrectGuess(false);
+    setIsPlayerRevealed(false);
   };
 
   const regenerateHint = () => {
@@ -82,10 +99,14 @@ export default function Component() {
   };
 
   const handleWhotheHellisThis = () => {
-    const playerName = revealCurrentPlayer();
-    if (playerName) {
-      setRevealedPlayer(playerName);
-      setMessage(`The player was ${playerName} idiot`);
+    const player = revealCurrentPlayer();
+    if (player) {
+      setRevealedPlayer({
+        playerName: player.playerName,
+        position: player.position
+      });
+      setMessage(`The player was ${player.playerName} idiot`);
+      setIsPlayerRevealed(true);
       setTimeout(() => {
         handleNewPlayer();
       }, 2000);
@@ -95,12 +116,26 @@ export default function Component() {
     }
   };
 
+  const handleSettingsToggle = () => {
+    setIsSettingsOpen(!isSettingsOpen);
+  };
+
+  const handleDarkModeToggle = () => {
+    const newDarkMode = toggleDarkMode();
+    setDarkMode(newDarkMode);
+  };
+
+  const handlePositionsToggle = () => {
+    const newPositionsOn = positionsToggle();
+    setShowPositions(newPositionsOn);
+  };
+
   return (
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="w-full row-start-1 flex justify-between items-center p-4 bg-gray-800">
         <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl font-bold">Team Player</div>
-          <HeaderIcons />
+          <HeaderIcons onSettingsClick={handleSettingsToggle}/>
         </div>
       </header>
 
@@ -111,27 +146,32 @@ export default function Component() {
           </a>
         </div>
         <div className="w-full flex flex-col items-center justify-center text-center">
-          {revealedPlayer ? (
-            <p className="text-2xl font-bold mb-4">{revealedPlayer}</p>
+          {revealedPlayer ? !isPlayerRevealed && (
+            <>
+              <p className="text-2xl font-bold mb-4">{revealedPlayer.playerName}</p>
+              {showPositions && (
+                <p className="text-lg font-semibold">Position: {revealedPlayer.position}</p>
+              )}
+            </>
           ) : correctGuess ? (
             <p className="text-2xl font-bold mb-4 text-green-500">Correct!</p>
           ) : (
             <>
-              {/* <p className="text-lg font-semibold mb-2">Current Hints:</p> */}
               {hints.length > 0 ? (
                 hints.map((hint, index) => (
-                  hint && (
-                    <div key={index} className="flex items-center justify-center mb-4">
-                      <Image
-                        src={hint.logo.src}
-                        alt={hint.logo.alt}
-                        width={80}
-                        height={80}
-                        className="mr-4"
-                      />
-                      <p>{hint.years}</p>
+                  <div key={index} className="flex items-center justify-center mb-4">
+                  <Image
+                    src={hint.logo.src}
+                    alt={hint.logo.alt}
+                    width={80}
+                    height={80}
+                    className="mr-4"
+                  />
+                  <div>
+                    <p>{hint.years}</p>
+                    {showPositions && <p>Position: {hint.position}</p>}
                     </div>
-                  )
+                  </div>
                 ))
               ) : (
                 <p>No hints available. Try generating a new player.</p>
@@ -199,6 +239,40 @@ export default function Component() {
           </div>
         </div>
       </main>
+
+      {isSettingsOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="bg-white p-6 rounded-lg">
+            <h2 className="text-xl font-bold mb-4">Settings</h2>
+            <div className="flex items-center mb-4">
+              <input
+                type="checkbox"
+                id="darkMode"
+                checked={darkMode}
+                onChange={handleDarkModeToggle}
+                className="mr-2"
+              />
+              <label htmlFor="darkMode">Dark Mode</label>
+            </div>
+            <div className="flex items-center mb-4">
+              <input
+                type="checkbox"
+                id="showPositions"
+                checked={showPositions}
+                onChange={handlePositionsToggle}
+                className="mr-2"
+              />
+              <label htmlFor="showPositions">Show Positions</label>
+            </div>
+            <button
+              onClick={handleSettingsToggle}
+              className="bg-blue-500 text-white px-4 py-2 rounded"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
 
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a

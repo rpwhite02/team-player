@@ -1,5 +1,6 @@
 import React from 'react';
 import { Settings, BarChart2, HelpCircle, Share2 } from 'lucide-react';
+import { toggleDarkMode, positionsToggle, getSettings } from './navBarActions';
 
 interface IconButtonProps {
   Icon: React.ElementType;
@@ -17,10 +18,20 @@ const IconButton: React.FC<IconButtonProps> = ({ Icon, label, onClick }) => (
   </button>
 );
 
-export default function HeaderIcons() {
+interface HeaderIconsProps {
+  onSettingsClick: () => void;
+}
+
+export default function HeaderIcons({ onSettingsClick }: HeaderIconsProps) {
   const handleSettings = () => {
-    console.log('Settings clicked');
-    // Add your settings logic here
+    const settings = getSettings();
+    if (settings) {
+      const newDarkMode = toggleDarkMode();
+      const newPositionsOn = positionsToggle();
+      console.log(`Dark mode is now ${newDarkMode ? 'on' : 'off'}`);
+      console.log(`Positions are now ${newPositionsOn ? 'on' : 'off'}`);
+    }
+    onSettingsClick();
   };
 
   const handlePlayerStats = () => {

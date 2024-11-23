@@ -12,12 +12,20 @@ export type Player = {
   teamName: string;
   startYear: string;
   endYear: string;
+  position: string;
 };
 
 // Define a type for the team logos
 export type TeamLogo = {
   src: string;
   alt: string;
+}
+
+// define a type for hints
+export type Hint = {
+  logo: TeamLogo;
+  years: string;
+  position: string;
 }
 
 // Assert the type of playersData
@@ -27,7 +35,7 @@ const allLogos = [...alLogos, ...nlLogos];
 // Type for the current game state
 type GameState = {
   selectedPlayer: Player | null;
-  hints: { logo: TeamLogo; years: string }[];
+  hints: Hint[];
   guessCount: number;
 };
 
@@ -38,37 +46,45 @@ let currentGame: GameState = {
   guessCount: 0
 };
 
+export type PlayerWithPosition = Player & { position: string };
+
 // Randomly Select a Player
 export function getRandomPlayer(): Player {
   const randomIndex = Math.floor(Math.random() * players.length);
   return players[randomIndex];
 }
 
-// Get all unique teams a player has played for
-function getPlayerTeams(player: Player): string[] {
-  return Array.from(new Set(players
-    .filter(p => p.playerName === player.playerName)
-    .map(p => p.teamName)));
+// Get all unique teams and positions a player has played for
+function getPlayerTeams(player: Player): Player[] {
+  return players.filter(p => p.playerName === player.playerName);
 }
 
 function getTeamLogo(teamName: string): TeamLogo | undefined {
   return allLogos.find(logo => logo.alt === teamName);
 }
 
+function getPlayerPositions(player: Player): string[] {
+  return Array.from(new Set(players
+    .filter(p => p.playerName === player.playerName)
+    .map(p => p.position)));
+}
+
 // Get the next hint
-export function getNextHint(): { logo: TeamLogo; years: string } | null {
+export function getNextHint(): Hint | null {
   if (!currentGame.selectedPlayer) return null;
   
   const allTeams = getPlayerTeams(currentGame.selectedPlayer);
-  const nextTeam = allTeams.find(team => !currentGame.hints.some(hint => hint.logo.alt === team));
+  const nextTeam = allTeams.find(team => !currentGame.hints.some(hint => hint.logo.alt === team.teamName));
   
   if (nextTeam) {
-    const teamLogo = getTeamLogo(nextTeam);
-    if (!teamLogo) return null; // If no logo is found, return null instead of an incomplete hint
+    const teamLogo = getTeamLogo(nextTeam.teamName);
+    if (!teamLogo) return null;
 
-    const teamEntries = players.filter(p => p.playerName === currentGame.selectedPlayer!.playerName && p.teamName === nextTeam);
-    const years = teamEntries.map(entry => `${entry.startYear}-${entry.endYear}`).join(', ');
-    const hint = { logo: teamLogo, years };
+    const hint: Hint = {
+      logo: teamLogo,
+      years: `${nextTeam.startYear}-${nextTeam.endYear}`,
+      position: nextTeam.position
+    };
     currentGame.hints.push(hint);
     return hint;
   }
@@ -77,7 +93,7 @@ export function getNextHint(): { logo: TeamLogo; years: string } | null {
 }
 
 // Handle a guess
-export function handleGuess(playerName: string): { correct: boolean; message: string; hints: { logo: TeamLogo; years: string }[]; guessCount: number } {
+export function handleGuess(playerName: string): { correct: boolean; message: string; hints: Hint[]; guessCount: number } {
   currentGame.guessCount++;
   
   if (playerName === currentGame.selectedPlayer?.playerName) {
@@ -93,7 +109,7 @@ export function handleGuess(playerName: string): { correct: boolean; message: st
 }
 
 // Start a new round
-export function startNewRound(): { player: Player; firstHint: { logo: TeamLogo; years: string } | null } {
+export function startNewRound(): { player: Player; firstHint: Hint | null } {
   let attempts = 0;
   const maxAttempts = 5;
 
@@ -123,6 +139,12 @@ export function getPlayerByName(name: string): Player | undefined {
 }
 
 // Show player information when the player presses the who the hell is this button
-export function revealCurrentPlayer(): string | null {
-  return currentGame.selectedPlayer?.playerName || null;
+export function revealCurrentPlayer(): PlayerWithPosition | null {
+  if (currentGame.selectedPlayer) {
+    return {
+      ...currentGame.selectedPlayer,
+      position: currentGame.selectedPlayer.position,
+    };
+  }
+  return null;
 }
